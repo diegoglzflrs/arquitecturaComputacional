@@ -1,6 +1,7 @@
 build/
 *.fst
-!/waveform.fst
+!/adders/waveform.fst
 *.vcd
+!/alu8/waveform.vcd
 __pycache__/
 *.pyc
