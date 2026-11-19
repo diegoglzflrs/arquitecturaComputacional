@@ -1,4 +1,4 @@
-# Compila y corre los ejemplos de esta presentacion con Verilator,
+# Compilen y corran los ejemplos de esta presentacion con Verilator,
 # generando ondas para verlas con Surfer.
 #
 # Uso:

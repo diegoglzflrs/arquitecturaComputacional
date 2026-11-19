@@ -51,7 +51,7 @@ Dentro de WSL (Ubuntu), seguir las instrucciones de Linux de arriba
 Surfer (nativo, sin WSL): <https://gitlab.com/api/v4/projects/42073614/jobs/artifacts/main/raw/surfer_win.zip?job=windows_build>
 
 Si ya tienen Surfer instalado pero no Verilator/siliconcompiler (o no
-quieren instalar nada todavia), `make view-alu` (sumadores) y `make view-alu8`
+quieren instalar nada todavía), `make view-alu` (sumadores) y `make view-alu8`
 (ALU) abren las ondas incluidas en el repo sin necesidad de simular ni
 de WSL.
 
@@ -60,6 +60,29 @@ Verificar instalación (dentro de WSL):
 ```bash
 verilator --version
 surfer --version
+```
+
+### openFPGALoader
+
+Para cargar el bitstream en la Arty A7-100T sin Vivado (ver
+[Núcleo completo en FPGA](#núcleo-completo-en-fpga-arty-a7-100t)).
+
+**Linux (Ubuntu/Debian):**
+
+```bash
+sudo apt install openfpgaloader
+```
+
+**macOS:**
+
+```bash
+brew install openfpgaloader
+```
+
+Verificar instalación:
+
+```bash
+openFPGALoader --version
 ```
 
 ## Ejecutar
